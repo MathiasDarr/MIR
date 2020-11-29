@@ -1,9 +1,4 @@
-# Dakobed Music Information Retrieval
-
-### Currently in development
-- experiment w/ conda virtual environments
-- activate the virtual environemnt through a subprocess call. 
-- write a script that will train the model,., and then will upload it to s3 when finished
+# Music Information Retrieval
 
 
 ### Project Discription
@@ -17,9 +12,8 @@ certain time.
 
 ### Guitar Tab Transcription
 
-
-I attempt to reproduce the neural network archticture described by Manuel Minguez Carretero in his thesis.  
-For convenience I have added the PDF of this work to the reposotiory.  He proposes several neural network architectures 
+I attempt to reproduce the neural network archticture proposed by Manuel Minguez Carretero in his thesis.  
+For convenience I have added the PDF of this work to the repository.  He proposes several neural network architectures 
 for solving this problem, which he trained on the MusicNet database, an MIR dataset of piano recordings and sheet music.  
 Instead I am training & testing my network with data from, GuitarSet, a different MIR dataset of guitar recordings and 
 and note labels. 
@@ -51,7 +45,7 @@ the GuitarSet's have not.  However owing to the fact that piano sheet music enca
 
 <img src="https://dakobed-style.s3-us-west-2.amazonaws.com/cnn.png" width="560" height="320">
 
-Neural network propesed by Carretero
+Neural network proposed by Carretero
 
 
 ### Piano Music Transcription
